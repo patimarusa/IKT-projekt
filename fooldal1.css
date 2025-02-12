@@ -20,47 +20,11 @@
     margin-left: 20px !important;
 }
 .navbar .navbar-nav {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    flex-wrap: wrap; /* Ha nem fér el, törjön új sorba */
-    gap: 5vw; /* A fix 200px helyett, így a kijelző méretéhez igazodik */
-  }
-  @media (max-width: 992px) { /* Tabletek és mobilok */
-    .navbar .navbar-nav {
-      flex-direction: column; /* A menüpontok egymás alá kerülnek */
-      align-items: center;
-      gap: 10px; /* Kisebb távolság a menüpontok között */
-    }
-  
-    .navbar-brand img {
-      width: 50px; /* Kisebb ikonméretek */
-    }
-  }
-  
-  @media (max-width: 768px) { /* Telefonok */
-    .navbar {
-      height: auto !important;
-    }
-  
-    .navbar-toggler {
-      display: block; /* A hamburger menü megjelenítése */
-    }
-  
-    .navbar-nav {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .logo {
-      height: 50px !important;
-    }
-  }
-  @media (max-width: 768px) {
-    .body {
-      background-size: contain; /* Kisebb kijelzőkhöz optimalizált háttér */
-    }
-  }
+    display: flex !important; /* Flexbox beállítás a menüpontok számára */
+    align-items: center !important; /* Képek és szövegek középre igazítása */
+    justify-content: space-between !important; /* Egyenlő távolságok a menüpontok között */
+    gap: 200px !important;
+}
 .logo{
     border-radius: 10% !important; /* A kép lekerekítése */
     height: 70px !important; /* A kép magassága */

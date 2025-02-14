@@ -1,5 +1,6 @@
 .body{
     background-image: url('/IKT-projekt/Képek/fooldalhatter.png');
+    background-image: url('../Képek/fooldalhatter.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

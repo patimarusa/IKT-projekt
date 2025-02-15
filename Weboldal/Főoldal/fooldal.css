@@ -1,5 +1,4 @@
 .body{
-    background-image: url('/IKT-projekt/Képek/fooldalhatter.png');
     background-image: url('../Képek/fooldalhatter.png');
     background-size: cover;
     background-position: center;
@@ -79,3 +78,41 @@
 .navbar-brand{
     color: white;
 }
+
+#ajánló{
+  color: white;
+  margin-left: 30px;
+  margin-top: 30%; /*Itt meég lehet rajta pár dolgot állytani */
+}
+
+strong{
+  font-size: 400%;
+}
+
+#vásárolj_gomb{
+  background-color: #C14A17;
+  width: 15%;
+  height: 40px;
+  font-size: 150%;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 1%;
+}
+
+.ajánlások{
+  background-color: black;
+  height: 20px;
+  margin: auto;
+}
+
+footer{
+  background-color: #232323;
+  height: 30%;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+#footer_content{
+  
+}
+

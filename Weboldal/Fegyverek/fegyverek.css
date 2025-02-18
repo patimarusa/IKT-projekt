@@ -78,3 +78,21 @@
 .navbar-brand{
     color: white;
 }
+.card{
+  border: 2px solid white;  /* 2px vastag, fekete színű keret */
+  padding: 10px;  /* Extra tér a szöveg körül */
+  background-color: #232323;
+  color: white;
+}
+.kep{
+  border: 2px solid #C14A17;  /* 2px vastag, fekete színű keret */
+  padding: 10px;  /* Extra tér a szöveg körül */
+}
+.btn{
+  display: flex;                  /* Flexbox engedélyezése */
+  justify-content: center;        /* Vízszintes középre igazítás */
+  align-items: center;            /* Függőleges középre igazítás */
+  color: white;
+  background-color: #232323;
+  border: 2px solid #C14A17;
+}

@@ -1,5 +1,18 @@
+<<<<<<< HEAD
 .navbar{
   background-image: url('/path/to/your/image.jpg') !important; /* A háttérkép */
+=======
+.body{
+  background-color: #232323;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Teljes képernyőt kitölt */
+  margin: 0; /* Ha nem akarod, hogy legyen margó az oldal körül */
+}
+.navbar{
+  background-color: #232323 !important; /* A háttérkép */
+>>>>>>> 0120b8b2a7b4aed7fa9ad57a3586c1507793acc1
   background-size: cover !important; /* A kép kitölti a navbar-t */
   background-position: center !important; /* A kép középre igazítva */
   background-repeat: no-repeat !important; /* A kép nem ismétlődik */
@@ -69,6 +82,7 @@
 }
 .navbar-brand{
   color: white;
+<<<<<<< HEAD
 }
 
 #ajánló{
@@ -108,3 +122,6 @@ padding-top: 10px;
 
 }
 
+=======
+}
+>>>>>>> 0120b8b2a7b4aed7fa9ad57a3586c1507793acc1

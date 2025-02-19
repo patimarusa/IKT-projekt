@@ -45,15 +45,15 @@
     display: block; /* A hamburger menü megjelenítése */
   }
 
-  .navbar-nav {
+  .navbar{
     width: 100%;
     text-align: center;
+
   }
 
   .logo {
     height: 50px !important;
   }
-}
 @media (max-width: 768px) {
   .body {
     background-size: contain; /* Kisebb kijelzőkhöz optimalizált háttér */
@@ -82,5 +82,4 @@ table, th, td {
 }
 .elsoresz{
   color: whitesmoke;
-
 }

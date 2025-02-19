@@ -3,6 +3,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 100vh; /* Teljes képernyőt kitölt */
+  margin: 0; /* Ha nem akarod, hogy legyen margó az oldal körül */
 }
 .navbar{
   background-color: #232323 !important; /* A háttérkép */
@@ -76,11 +78,9 @@
 .navbar-brand{
   color: white;
 }
-
 table, th, td {
   border: 1px solid black;
 }
 .elsoresz{
   color: whitesmoke;
-
 }

@@ -104,5 +104,6 @@ border: 2px solid #C14A17;
 .kartyak{
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 50px;
+  
 }

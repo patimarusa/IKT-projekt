@@ -78,3 +78,11 @@
 .navbar-brand{
     color: white;
 }
+.image-container{
+  position: relative;
+}
+.image-container{
+  position: absolute;
+  top: 0;
+  right: 0;
+}

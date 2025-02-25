@@ -78,15 +78,37 @@
 .navbar-brand{
   color: white;
 }
-.card{
+.card1{
 border: 2px solid white;  /* 2px vastag, fekete színű keret */
 padding: 10px;  /* Extra tér a szöveg körül */
 background-color: #232323;
 color: white;
+margin-right: 30px;
+}
+.card2{
+border: 2px solid white;  /* 2px vastag, fekete színű keret */
+padding: 10px;  /* Extra tér a szöveg körül */
+background-color: #232323;
+color: white;
+margin-right: 30px;
+}
+.card3{
+border: 2px solid white;  /* 2px vastag, fekete színű keret */
+padding: 10px;  /* Extra tér a szöveg körül */
+background-color: #232323;
+color: white;
+margin-right: 30px;
+}
+.card4{
+  border: 2px solid white;  /* 2px vastag, fekete színű keret */
+  padding: 10px;  /* Extra tér a szöveg körül */
+  background-color: #232323;
+  color: white;
 }
 .kep{
 border: 2px solid #C14A17;  /* 2px vastag, fekete színű keret */
 padding: 10px;  /* Extra tér a szöveg körül */
+height: 207px;
 }
 .btn{
 display: flex;                  /* Flexbox engedélyezése */
@@ -106,4 +128,20 @@ border: 2px solid #C14A17;
   justify-content: center;
   padding: 50px;
   
+}
+.gomb1{
+  width: 100px;
+  margin-left: 65px;
+}
+.gomb2{
+  width: 150px;
+  margin-left: 40px;
+}
+.gomb3{
+  width: 100px;
+  margin-left: 65px;
+}
+.gomb4{
+  width: 180px;
+  margin-left: 25px;
 }

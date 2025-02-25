@@ -1,98 +1,109 @@
 .body{
-    background-color: #232323;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; /* Teljes képernyőt kitölt */
-    margin: 0; /* Ha nem akarod, hogy legyen margó az oldal körül */
+  background-color: #232323;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Teljes képernyőt kitölt */
+  margin: 0; /* Ha nem akarod, hogy legyen margó az oldal körül */
 }
 .navbar{
-    background-color: #232323 !important; /* A háttérkép */
-    background-size: cover !important; /* A kép kitölti a navbar-t */
-    background-position: center !important; /* A kép középre igazítva */
-    background-repeat: no-repeat !important; /* A kép nem ismétlődik */
-    height: 80px !important; /* Navbar magassága */
-    background-color: rgba(255, 255, 255, 0) !important;
-    border-bottom: 3px solid #D9D9D9;
+  background-color: #232323 !important; /* A háttérkép */
+  background-size: cover !important; /* A kép kitölti a navbar-t */
+  background-position: center !important; /* A kép középre igazítva */
+  background-repeat: no-repeat !important; /* A kép nem ismétlődik */
+  height: 80px !important; /* Navbar magassága */
+  background-color: rgba(255, 255, 255, 0) !important;
+  border-bottom: 3px solid #D9D9D9;
 }
 .navbar a{
-    font-size: 30px !important;
-    margin-left: 20px !important;
+  font-size: 30px !important;
+  margin-left: 20px !important;
 }
 .navbar .navbar-nav {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    flex-wrap: wrap; /* Ha nem fér el, törjön új sorba */
-    gap: 5vw; /* A fix 200px helyett, így a kijelző méretéhez igazodik */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-wrap: wrap; /* Ha nem fér el, törjön új sorba */
+  gap: 5vw; /* A fix 200px helyett, így a kijelző méretéhez igazodik */
+}
+@media (max-width: 992px) { /* Tabletek és mobilok */
+  .navbar .navbar-nav {
+    flex-direction: column; /* A menüpontok egymás alá kerülnek */
+    align-items: center;
+    gap: 10px; /* Kisebb távolság a menüpontok között */
   }
-  @media (max-width: 992px) { /* Tabletek és mobilok */
-    .navbar .navbar-nav {
-      flex-direction: column; /* A menüpontok egymás alá kerülnek */
-      align-items: center;
-      gap: 10px; /* Kisebb távolság a menüpontok között */
-    }
-  
-    .navbar-brand img {
-      width: 50px; /* Kisebb ikonméretek */
-    }
+
+  .navbar-brand img {
+    width: 50px; /* Kisebb ikonméretek */
   }
-  
-  @media (max-width: 768px) { /* Telefonok */
-    .navbar {
-      height: auto !important;
-    }
-  
-    .navbar-toggler {
-      display: block; /* A hamburger menü megjelenítése */
-    }
-  
-    .navbar-nav {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .logo {
-      height: 50px !important;
-    }
+}
+
+@media (max-width: 768px) { /* Telefonok */
+  .navbar {
+    height: auto !important;
   }
-  @media (max-width: 768px) {
-    .body {
-      background-size: contain; /* Kisebb kijelzőkhöz optimalizált háttér */
-    }
+
+  .navbar-toggler {
+    display: block; /* A hamburger menü megjelenítése */
   }
+
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo {
+    height: 50px !important;
+  }
+}
+@media (max-width: 768px) {
+  .body {
+    background-size: contain; /* Kisebb kijelzőkhöz optimalizált háttér */
+  }
+}
 .logo{
-    border-radius: 10% !important; /* A kép lekerekítése */
-    height: 70px !important; /* A kép magassága */
-    }
+  border-radius: 10% !important; /* A kép lekerekítése */
+  height: 70px !important; /* A kép magassága */
+  }
 .kosarlogo{
-    width: 80%;
+  width: 80%;
 }
 .kedvenclogo{
-    width: 67%;
+  width: 67%;
 }
 .navbar-nav {
-    display: flex;
-    margin: auto;
+  display: flex;
+  margin: auto;
 }
 .navbar-brand{
-    color: white;
+  color: white;
 }
 .card{
-  border: 2px solid white;  /* 2px vastag, fekete színű keret */
-  padding: 10px;  /* Extra tér a szöveg körül */
-  background-color: #232323;
-  color: white;
+border: 2px solid white;  /* 2px vastag, fekete színű keret */
+padding: 10px;  /* Extra tér a szöveg körül */
+background-color: #232323;
+color: white;
 }
 .kep{
-  border: 2px solid #C14A17;  /* 2px vastag, fekete színű keret */
-  padding: 10px;  /* Extra tér a szöveg körül */
+border: 2px solid #C14A17;  /* 2px vastag, fekete színű keret */
+padding: 10px;  /* Extra tér a szöveg körül */
 }
 .btn{
-  display: flex;                  /* Flexbox engedélyezése */
-  justify-content: center;        /* Vízszintes középre igazítás */
-  align-items: center;            /* Függőleges középre igazítás */
-  color: white;
-  background-color: #232323;
-  border: 2px solid #C14A17;
+display: flex;                  /* Flexbox engedélyezése */
+justify-content: center;        /* Vízszintes középre igazítás */
+align-items: center;            /* Függőleges középre igazítás */
+color: white;
+background-color: #232323;
+border: 2px solid #C14A17;
+}
+.fegyverek{
+  display: flex;
+  justify-content: center;
+  
+}
+.kartyak{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  
 }

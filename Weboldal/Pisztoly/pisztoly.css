@@ -7,3 +7,20 @@
 .kosarlogo{
     width: 50%;
 }
+.card{
+    border: 2px solid white;  /* 2px vastag, fekete színű keret */
+    padding: 10px;  /* Extra tér a szöveg körül */
+    background-color: #232323;
+    color: white;
+    }
+    .kep{
+    border: 2px solid #C14A17;  /* 2px vastag, fekete színű keret */
+    padding: 10px;  /* Extra tér a szöveg körül */
+    height: 207px;
+    }
+    .ár{
+        text-align: center;
+    }
+    .nev{
+        text-align: center;
+    }

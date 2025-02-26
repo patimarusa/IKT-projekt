@@ -70,6 +70,8 @@
 }
 .kedvenclogo{
     width: 67%;
+    background-color: transparent;
+    border: none;
 }
 .navbar-nav {
     display: flex;
@@ -77,4 +79,17 @@
 }
 .navbar-brand{
     color: white;
+}
+.image-container{
+  position: relative;
+}
+.image-container{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.rect {
+  width: 200px; /* A téglalap szélessége */
+  height: 20px; /* A téglalap magassága, vékony legyen */
+  background-color: #C14A17; /* A szín kódja */
 }

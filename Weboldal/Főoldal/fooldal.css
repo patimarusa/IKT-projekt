@@ -7,7 +7,7 @@
     margin: 0; /* Ha nem akarod, hogy legyen margó az oldal körül */
 }
 .navbar{
-    background-image: url('/path/to/your/image.jpg') !important; /* A háttérkép */
+    background-image: url('../Főoldal/fooldal.html') !important; /* A háttérkép */
     background-size: cover !important; /* A kép kitölti a navbar-t */
     background-position: center !important; /* A kép középre igazítva */
     background-repeat: no-repeat !important; /* A kép nem ismétlődik */

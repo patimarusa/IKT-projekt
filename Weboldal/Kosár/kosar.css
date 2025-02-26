@@ -38,7 +38,7 @@
   }
 }
 
-@media (max-width: 768px)  /* Telefonok */
+@media (max-width: 768px){ /* Telefonok */
     .navbar {
     height: auto !important;
   }
@@ -56,6 +56,7 @@
   .logo {
     height: 50px !important;
   }
+}
 @media (max-width: 768px) {
   .body {
     background-size: contain; /* Kisebb kijelzőkhöz optimalizált háttér */

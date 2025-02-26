@@ -79,25 +79,26 @@
   color: white;
 }
 .card1{
-border: 2px solid white;  /* 2px vastag, fekete színű keret */
-padding: 10px;  /* Extra tér a szöveg körül */
-background-color: #232323;
-color: white;
-margin-right: 30px;
+  border: 2px solid white;  /* 2px vastag, fekete színű keret */
+  padding: 10px;  /* Extra tér a szöveg körül */
+  background-color: #232323;
+  color: white;
+  margin-right: 100px;
+  margin-bottom: 80px;
 }
 .card2{
-border: 2px solid white;  /* 2px vastag, fekete színű keret */
-padding: 10px;  /* Extra tér a szöveg körül */
-background-color: #232323;
-color: white;
-margin-right: 30px;
+  border: 2px solid white;  /* 2px vastag, fekete színű keret */
+  padding: 10px;  /* Extra tér a szöveg körül */
+  background-color: #232323;
+  color: white;
 }
 .card3{
-border: 2px solid white;  /* 2px vastag, fekete színű keret */
-padding: 10px;  /* Extra tér a szöveg körül */
-background-color: #232323;
-color: white;
-margin-right: 30px;
+  border: 2px solid white;  /* 2px vastag, fekete színű keret */
+  padding: 10px;  /* Extra tér a szöveg körül */
+  background-color: #232323;
+  color: white;
+  margin-right: 30px;
+  margin-bottom: 80px;
 }
 .card4{
   border: 2px solid white;  /* 2px vastag, fekete színű keret */
@@ -106,17 +107,17 @@ margin-right: 30px;
   color: white;
 }
 .kep{
-border: 2px solid #C14A17;  /* 2px vastag, fekete színű keret */
-padding: 10px;  /* Extra tér a szöveg körül */
-height: 207px;
+  border: 2px solid #C14A17;  /* 2px vastag, fekete színű keret */
+  padding: 10px;  /* Extra tér a szöveg körül */
+  height: 207px;
 }
 .btn{
-display: flex;                  /* Flexbox engedélyezése */
-justify-content: center;        /* Vízszintes középre igazítás */
-align-items: center;            /* Függőleges középre igazítás */
-color: white;
-background-color: #232323;
-border: 2px solid #C14A17;
+  display: flex;                  /* Flexbox engedélyezése */
+  justify-content: center;        /* Vízszintes középre igazítás */
+  align-items: center;            /* Függőleges középre igazítás */
+  color: white;
+  background-color: #232323;
+  border: 2px solid #C14A17;
 }
 .fegyverek{
   display: flex;

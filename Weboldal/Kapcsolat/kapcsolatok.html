@@ -6,10 +6,8 @@
     <title>Warrior's Arsenal Fegyverbolt</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="kapcsolat.css">
-    
 </head>
-<body class="body">
-    
+<body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           
@@ -29,8 +27,37 @@
               <a class="navbar-brand" href="/IKT-projekt/Weboldal/kedvencek/kedvencek.html"><img class="kedvenclogo" src="/IKT-projekt/Képek/kedvencek.png" alt=""></a>
           </div>
         </div>
-      </nav>      
-
-    <script src="/IKT-projekt/Weboldal/Főoldal/bootstrap.min.js"></script>
+      </nav>
+    <div class="container">
+        <h2>Lépj kapcsolatba velünk!</h2>
+        <form id="contactForm">
+            <input type="email" id="email" placeholder="E-Mail címed" required>
+            <textarea id="message" placeholder="Miben segíthetünk?" required></textarea>
+            <button type="submit">Küldés</button>
+        </form>
+        <div class="contact-info">
+            <div><i>📍</i> <strong>Üzletünk:</strong> 6500, Baja Nemtudom utca 9</div>
+            <div><i>📞</i> <strong>Hívj minket:</strong> +30 30 123 9876</div>
+            <div><i>📧</i> <strong>E-Mail címünk:</strong> info@warriorsarsenal.hu</div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            if(!email || !message) {
+                alert('Kérjük, töltse ki az összes mezőt!');
+                return;
+            }
+            const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+            if(!email.match(emailPattern)) {
+                alert('Kérjük, érvényes e-mail címet adjon meg!');
+                return;
+            }
+            alert('Üzenet sikeresen elküldve!');
+            document.getElementById('contactForm').reset();
+        });
+    </script>
 </body>
 </html>

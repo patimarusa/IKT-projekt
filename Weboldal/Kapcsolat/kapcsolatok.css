@@ -1,192 +1,80 @@
-body {
-    background-color: #232323;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-.container {
-    max-width: 800px;
-    background: #2e2e2e;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-h2 {
-    text-align: center;
-    color: #fff;
-}
-form {
-    display: flex;
-    flex-direction: column;
-}
-input, textarea {
-    margin: 10px 0;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-}
-input[type="email"]::placeholder, textarea::placeholder {
-    color: #ccc;
-}
-button {
-    background-color: #d9531e;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-button:hover {
-    background-color: #c34210;
-}
-button:active {
-    transform: scale(0.98);
-}
-.contact-info {
-    margin-top: 20px;
-}
-.contact-info div {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-}
-.contact-info div i {
-    margin-right: 10px;
-    transition: color 0.3s;
-}
-.contact-info div:hover i {
-    color: #d9531e;
+.body{
+  background-image: url('../Képek/fooldalhatter.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Teljes képernyőt kitölt */
+  margin: 0; /* Ha nem akarod, hogy legyen margó az oldal körül */
 }
 .navbar{
-    background-color: #232323 !important; /* A háttérkép */
-    background-size: cover !important; /* A kép kitölti a navbar-t */
-    background-position: center !important; /* A kép középre igazítva */
-    background-repeat: no-repeat !important; /* A kép nem ismétlődik */
-    height: 80px !important; /* Navbar magassága */
-    background-color: rgba(255, 255, 255, 0) !important;
-    border-bottom: 3px solid #D9D9D9;
-  }
-  .navbar a{
-    font-size: 30px !important;
-    margin-left: 20px !important;
-  }
+  background-image: url('../Főoldal/fooldal.html') !important; /* A háttérkép */
+  background-size: cover !important; /* A kép kitölti a navbar-t */
+  background-position: center !important; /* A kép középre igazítva */
+  background-repeat: no-repeat !important; /* A kép nem ismétlődik */
+  height: 80px !important; /* Navbar magassága */
+  background-color: rgba(255, 255, 255, 0) !important;
+  border-bottom: 3px solid #D9D9D9;
+}
+.navbar a{
+  font-size: 30px !important;
+  margin-left: 20px !important;
+}
+.navbar .navbar-nav {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-wrap: wrap; /* Ha nem fér el, törjön új sorba */
+  gap: 5vw; /* A fix 200px helyett, így a kijelző méretéhez igazodik */
+}
+@media (max-width: 992px) { /* Tabletek és mobilok */
   .navbar .navbar-nav {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    flex-wrap: wrap; /* Ha nem fér el, törjön új sorba */
-    gap: 5vw; /* A fix 200px helyett, így a kijelző méretéhez igazodik */
-  }
-  @media (max-width: 992px) { /* Tabletek és mobilok */
-    .navbar .navbar-nav {
-      flex-direction: column; /* A menüpontok egymás alá kerülnek */
-      align-items: center;
-      gap: 10px; /* Kisebb távolság a menüpontok között */
-    }
-  
-    .navbar-brand img {
-      width: 50px; /* Kisebb ikonméretek */
-    }
-  }
-  
-  @media (max-width: 768px) { /* Telefonok */
-    .navbar {
-      height: auto !important;
-    }
-  
-    .navbar-toggler {
-      display: block; /* A hamburger menü megjelenítése */
-    }
-  
-    .navbar-nav {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .logo {
-      height: 50px !important;
-    }
-  }
-  @media (max-width: 768px) {
-    .body {
-      background-size: contain; /* Kisebb kijelzőkhöz optimalizált háttér */
-    }
-  }
-  .logo{
-    border-radius: 10% !important; /* A kép lekerekítése */
-    height: 70px !important; /* A kép magassága */
-    }
-  .kosarlogo{
-    width: 80%;
-  }
-  .kedvenclogo{
-    width: 67%;
-  }
-  .navbar-nav {
-    display: flex;
-    margin: auto;
-  }
-  .navbar-brand{
-    color: white;
+    flex-direction: column; /* A menüpontok egymás alá kerülnek */
+    align-items: center;
+    gap: 10px; /* Kisebb távolság a menüpontok között */
   }
 
-  body {
-    color: #fff;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
+  .navbar-brand img {
+    width: 50px; /* Kisebb ikonméretek */
   }
-  .container {
-    max-width: 800px;
-    background: #2e2e2e;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) { /* Telefonok */
+  .navbar {
+    height: auto !important;
   }
-  h2 {
+
+  .navbar-toggler {
+    display: block; /* A hamburger menü megjelenítése */
+  }
+
+  .navbar-nav {
+    width: 100%;
     text-align: center;
-    color: #fff;
   }
-  form {
-    display: flex;
-    flex-direction: column;
+
+  .logo {
+    height: 50px !important;
   }
-  input, textarea {
-    margin: 10px 0;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
+}
+@media (max-width: 768px) {
+  .body {
+    background-size: contain; /* Kisebb kijelzőkhöz optimalizált háttér */
   }
-  input[type="email"]::placeholder, textarea::placeholder {
-    color: #ccc;
+}
+.logo{
+  border-radius: 10% !important; /* A kép lekerekítése */
+  height: 70px !important; /* A kép magassága */
   }
-  button {
-    background-color: #d9531e;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  button:hover {
-    background-color: #c34210;
-  }
-  .contact-info {
-    margin-top: 20px;
-  }
-  .contact-info div {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-  }
-  .contact-info div i {
-    margin-right: 10px;
-  }
+.kosarlogo{
+  width: 80%;
+}
+.kedvenclogo{
+  width: 67%;
+}
+.navbar-nav {
+  display: flex;
+  margin: auto;
+}
+.navbar-brand{
+  color: white;
+}

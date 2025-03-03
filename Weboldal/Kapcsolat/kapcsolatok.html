@@ -6,58 +6,42 @@
     <title>Warrior's Arsenal Fegyverbolt</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="kapcsolat.css">
+
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <img class="logo" src="/IKT-projekt/Képek/logo.png" alt="">
-            <div class="navbar-nav">
-              <a class="navbar-brand" href="/IKT-projekt/Weboldal/Főoldal/fooldal.html">Főoldal</a>
-              <a class="navbar-brand" aria-current="page" href="/IKT-projekt/Weboldal/Fegyverek/fegyverek.html">Fegyverek</a>
-              <a class="navbar-brand" href="/IKT-projekt/Weboldal/Lőszer/loszer.html">Lőszer</a>
-              <a class="navbar-brand" href="/IKT-projekt/Weboldal/Kapcsolat/kapcsolat.html">Kapcsolat</a>
-              
-            </div>
-            <a class="navbar-brand" href="/IKT-projekt/Weboldal/Kosár/kosar.html"><img class="kosarlogo" src="/IKT-projekt/Képek/kosar logo.png" alt=""></a>
-              <a class="navbar-brand" href="/IKT-projekt/Weboldal/kedvencek/kedvencek.html"><img class="kedvenclogo" src="/IKT-projekt/Képek/kedvencek.png" alt=""></a>
+<body class="body">
+    
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <img class="logo" src="../Képek/logo.png" alt="">
+          <div class="navbar-nav">
+            <a class="navbar-brand" href="/Weboldal/Főoldal/fooldal.html">Főoldal</a>
+            <a class="navbar-brand" aria-current="page" href="../Fegyverek/fegyverek.html">Fegyverek</a>
+            <a class="navbar-brand" href="../Lőszer/loszer.html">Lőszer</a>
+            <a class="navbar-brand" href="../Kapcsolat/kapcsolat.html">Kapcsolat</a>
+            
           </div>
+          <a class="navbar-brand" href="../Kosár/kosar.html"><img class="kosarlogo" src="../Képek/kosar logo.png" alt=""></a>
+          <a class="navbar-brand" href="../kedvencek/kedvencek.html"><img class="kedvenclogo" src="../Képek/kedvencek.png" alt=""></a>
         </div>
-      </nav>
-    <div class="container">
-        <h2>Lépj kapcsolatba velünk!</h2>
-        <form id="contactForm">
-            <input type="email" id="email" placeholder="E-Mail címed" required>
-            <textarea id="message" placeholder="Miben segíthetünk?" required></textarea>
-            <button type="submit">Küldés</button>
-        </form>
-        <div class="contact-info">
-            <div><i>📍</i> <strong>Üzletünk:</strong> 6500, Baja Nemtudom utca 9</div>
-            <div><i>📞</i> <strong>Hívj minket:</strong> +30 30 123 9876</div>
-            <div><i>📧</i> <strong>E-Mail címünk:</strong> info@warriorsarsenal.hu</div>
-        </div>
-    </div>
-    <script>
-        document.getElementById('contactForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-            if(!email || !message) {
-                alert('Kérjük, töltse ki az összes mezőt!');
-                return;
-            }
-            const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
-            if(!email.match(emailPattern)) {
-                alert('Kérjük, érvényes e-mail címet adjon meg!');
-                return;
-            }
-            alert('Üzenet sikeresen elküldve!');
-            document.getElementById('contactForm').reset();
-        });
-    </script>
+      </div>
+    </nav>
+  <div class="container">
+      <h2>Lépj kapcsolatba velünk!</h2>
+        form id="contactForm">
+          <input type="email" id="email" placeholder="E-Mail címed" required>
+          <textarea id="message" placeholder="Miben segíthetünk?" required></textarea>
+          <button type="submit">Küldés</button>
+      </form>
+      <div class="contact-info">
+          <div><i>📍</i> <strong>Üzletünk:</strong> 6500, Baja Nemtudom utca 9</div>
+          <div><i>📞</i> <strong>Hívj minket:</strong> +30 30 123 9876</div>
+          <div><i>📧</i> <strong>E-Mail címünk:</strong> info@warriorsarsenal.hu</div>
+      </div>
+  </div>
+  <script src="/Bootstrap/bootstrap.min.js"></script>
 </body>
-</html>

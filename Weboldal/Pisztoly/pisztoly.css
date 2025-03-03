@@ -14,6 +14,7 @@
     color: white;
     width: 320px!important;
     height: 450px !important;
+   ;
     }
     .kep{
     padding: 10px;  /* Extra tér a szöveg körül */
@@ -35,5 +36,23 @@
         display: flex;
         justify-content: center;
         padding: 50px;
+        margin-right: 50px;
+        margin-top: 150px;
+        margin-left: 60px;
+        
     }
-  
+.beretta{
+    margin-right: 50px;
+}
+.glock{
+    margin-right: 50px;
+}
+.desert{
+    margin-right: 50px;
+}
+.h4{
+    text-align: left;
+    
+}
+
+

@@ -8,15 +8,22 @@
     width: 50%;
 }
 .card{
-    border: 2px solid white;  /* 2px vastag, fekete színű keret */
+    border: 2.5px solid #C14A17;  /* 2px vastag, fekete színű keret */
     padding: 10px;  /* Extra tér a szöveg körül */
     background-color: #232323;
     color: white;
+    width: 320px!important;
+    height: 450px !important;
     }
     .kep{
-    border: 2px solid #C14A17;  /* 2px vastag, fekete színű keret */
     padding: 10px;  /* Extra tér a szöveg körül */
     height: 207px;
+    background-color: white;
+    height:300px ;
+    width: 280px; ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     }
     .ár{
         text-align: center;
@@ -24,3 +31,9 @@
     .nev{
         text-align: center;
     }
+    .haromkep{
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+  

@@ -1,6 +1,5 @@
 .body{
-  background-image: url('../Képek/fooldalhatter.png');
-  background-size: cover;
+  background-color: #232323;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh; /* Teljes képernyőt kitölt */
@@ -76,5 +75,8 @@
   margin: auto;
 }
 .navbar-brand{
+  color: white;
+}
+.szoveg{
   color: white;
 }

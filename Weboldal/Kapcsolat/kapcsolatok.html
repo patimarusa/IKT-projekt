@@ -6,6 +6,8 @@
     <title>Warrior's Arsenal Fegyverbolt</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="kapcsolat.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
 
 <body class="body">
     
@@ -61,7 +63,7 @@
         </div>
       </div>
     </nav>
-<h2 class="szoveg">Lépj kapcsolatba velünk!</h2>
+<div class="szoveg">Lépj kapcsolatba velünk!</div>
   <div class="container">
         <form id="contactForm">
           <input type="email" id="email" placeholder="E-Mail címed" required>
@@ -75,4 +77,31 @@
       </div>
   </div>
   <script src="/Bootstrap/bootstrap.min.js"></script>
+  <script>
+    // E-mail validálás funkció
+    function validateEmail(email) {
+        // E-mail formátum ellenőrzése regex segítségével
+        const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        if (!emailPattern.test(email)) {
+            return "Érvénytelen e-mail cím formátum.";
+        }
+        
+        // Ellenőrzés, hogy a megadott e-mail cím foglalt-e
+        // Ez valós példában szerveroldali validációt igényel, pl. AJAX vagy API hívás segítségével.
+        const existingEmails = ["example1@example.com", "example2@example.com"]; // Például egy már létező e-mail lista.
+        if (existingEmails.includes(email)) {
+            return "Ez az e-mail cím már foglalt.";
+        }
+
+        // Ha nincs hiba, visszaadjuk a "sikeres" választ
+        return "E-mail cím érvényes és nem foglalt.";
+    }
+
+    // E-mail cím bekérése és validálás
+    function checkEmail() {
+        const userEmail = prompt("Add meg az e-mail címed:");
+        const validationMessage = validateEmail(userEmail);
+        alert(validationMessage);
+    }
+</script>
 </body>

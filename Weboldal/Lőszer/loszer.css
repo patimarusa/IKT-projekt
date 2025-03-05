@@ -83,21 +83,23 @@
   padding: 10px;  /* Extra tér a szöveg körül */
   background-color: #232323;
   color: white;
-  
+  margin-right: 30px;
+  width: 400px;
+  height: 600px;
 }
 .card2{
   border: 3px solid #C14A17;  /* 2px vastag, fekete színű keret */
   padding: 10px;  /* Extra tér a szöveg körül */
   background-color: #232323;
   color: white;
-  
+  margin-right: 30px;
 }
 .card3{
   border: 3px solid #C14A17;  /* 2px vastag, fekete színű keret */
   padding: 10px;  /* Extra tér a szöveg körül */
   background-color: #232323;
   color: white;
-  
+  margin-right: 30px;
 }
 .card4{
   border: 3px solid #C14A17;  /* 2px vastag, fekete színű keret */
@@ -114,4 +116,58 @@
   display: flex;
   justify-content: center;
   padding: 50px;
+
 }
+.kep1{
+  height: 217px;
+  width: 262px;
+}
+.kep2{
+  height: auto;
+  width: 262px;
+}
+.kep3{
+  height: auto;
+  width: 262px;
+}
+.kep4{
+  margin-left: 17.5px;
+}
+.hatter1{
+  background-color: white;
+  width: auto;
+  height: 300px;
+}
+.hatter2{
+  background-color: white;
+}
+.hatter3{
+  background-color: white;
+}
+.hatter4{
+  background-color: white;
+}
+.nev1{
+  margin-top: 50px;
+}
+.nev2{
+  margin-top: 93px;
+}
+.nev3{
+  margin-top: 93px;
+}
+.nev4{
+  margin-top: 13px;
+}
+/* nem fér el rendesen a képernyőn
+<div class="card card4" style="width: 18rem;">
+      <div class="hatter4">
+        <img class="kep kep4" src="../Képek/7.62x39 2.png" class="card-img-top" alt="...">
+      </div>
+      <div class="card-body">
+        <h4 class="nev4">7.62x39mm</h4>
+        <p class="ár">149.999 Ft</p>
+      </div>
+    </div>
+    
+*/

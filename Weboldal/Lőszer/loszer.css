@@ -116,7 +116,8 @@
   display: flex;
   justify-content: center;
   padding: 50px;
-
+  width: auto;
+  height: 500px;
 }
 .kep1{
   height: 217px;

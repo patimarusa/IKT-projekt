@@ -90,8 +90,6 @@
     background-color: white;
     height:300px ;
     width: 280px; ;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
     }
     .ár{
@@ -121,22 +119,17 @@
 .kosar{
   width: 50px;
   height: auto;
-  margin-right: 50px;
- 
 }
+
 .kedvencek{
   width: 60px;
   height: auto;
-  margin-top: 10px;
-  margin-right: 50px;
   
 }
-#kozosdoboz{
-  justify-content: start;
-  align-items: center;
-  display: flex;
-  margin-top: 30px;
-  margin-right: 100px;
-}
 
+.megoldas{
+  display:flex;
+  align-items: center; 
+
+}
 

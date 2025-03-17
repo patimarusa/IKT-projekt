@@ -129,7 +129,10 @@
 
 .megoldas{
   display:flex;
-  align-items: center; 
+  align-items: center;
 
 }
-
+.KK{
+  margin-left: 50px;
+  
+}

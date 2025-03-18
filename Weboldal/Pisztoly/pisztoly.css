@@ -102,8 +102,8 @@
         display: flex;
         justify-content: center;
         padding: 50px;
-        margin-right: 50px;
-        margin-top: 150px;
+        margin-right: 60px;
+        margin-top: 160px;
         margin-left: 60px;
         
     }
@@ -116,23 +116,12 @@
 .desert{
     margin-right: 50px;
 }
-.kosar{
-  width: 50px;
-  height: auto;
-}
-
-.kedvencek{
-  width: 60px;
-  height: auto;
-  
-}
 
 .megoldas{
   display:flex;
   align-items: center;
 
 }
-.KK{
-  margin-left: 50px;
-  
+.egybe{
+ float: right;
 }

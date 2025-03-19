@@ -116,8 +116,41 @@ footer{
   margin-top: -220px;
 }
 
-.fooldal-ár{
+.fooldal-ár1{
   margin: 2px;
   margin-top: 40px;
   color: white;
+}
+
+.piros-ár1{
+  color: red;
+  margin: 200px;
+  margin-top: -47px;
+}
+
+.szoveg2{
+  margin: 430px;
+  margin-top: -380px;
+  color: white;
+}
+
+.fooldal-ár2{
+  margin: 2px;
+  margin-top: 40px;
+}
+
+.piros-ár2{
+  color: red;
+  margin: 178px;
+  margin-top: -47px;
+}
+
+.szoveg3{
+  color: white;
+  margin: 430px;
+  margin-top: -435px;
+}
+
+.fooldal-ár3{
+  display: flex;
 }

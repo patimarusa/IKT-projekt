@@ -77,21 +77,21 @@
 .navbar-brand{
   color: white;
 }
-.szoveg{
+.cim{
   color: white;
   display: flex;
   justify-content: center;
-  height: 100vh;
-  text-align: center;
-  margin-top: 100px;
-  font-size: 1.5em;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
 }
-.container{
+.email{
+  width: 300px;
+}
+.segitseg{
   display: flex;
-  align-items: flex-start;
+  width: 307px;
   height: 200px;
-  border: 1px black;
-  justify-content: flex-start;
-  margin-top: 100px;
+}
+.kereses{
+  margin-top: 150px;
+  margin-left: 125px;
 }

@@ -84,14 +84,34 @@
   margin-top: 50px;
 }
 .email{
-  width: 300px;
+  width: 350px;
 }
 .segitseg{
   display: flex;
-  width: 307px;
+  width: 357px;
   height: 200px;
 }
-.kereses{
-  margin-top: 150px;
-  margin-left: 125px;
+.kuldesgomb{
+  margin-top: 15px;
+  
+  width: 275px;
+  background-color: #C14A17;
+  border-color: #C14A17;
+}
+.btn:hover {
+  background-color: #C14A17;
+  border-color: #C14A17;
+}
+.jobboldal{
+  display: flex;
+  justify-content: right;
+  color: white;
+  padding-right: 50px;
+}
+.baloldal{
+  padding-top: 50px;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
 }

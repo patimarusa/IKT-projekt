@@ -83,6 +83,7 @@
   color: white;
   margin-left: 30px;
   margin-top: 30%; /*Itt meég lehet rajta pár dolgot állytani */
+  text-shadow: 2px 2px black;
 }
 
 strong{
@@ -97,11 +98,22 @@ strong{
   text-align: center;
   border-radius: 20px;
   margin-top: 1%;
+  text-shadow: none;
 }
 
-.ajánlások{
-  margin: auto;
-  
+.ajanlas1{
+  margin: 10px;
+}
+
+.ajanlas2{
+  margin: 427px;
+  margin-top: -255px;
+}
+
+.ajanlas3{
+  margin: 845px;
+  margin-top: -670px;
+
 }
 
 footer{
@@ -112,32 +124,37 @@ footer{
 }
 
 .szoveg1{
-  margin: 75px;
-  margin-top: -220px;
+  margin: 25px;
+  margin-top: -1070px;
+  text-shadow: 2px 2px #7f7f7f;
 }
 
 .fooldal-ár1{
   margin: 2px;
   margin-top: 40px;
   color: white;
+  text-shadow: 2px 2px #7f7f7f;
 }
 
 .piros-ár1{
   color: red;
   margin: 200px;
   margin-top: -47px;
+  text-shadow: none;
 }
 
 .szoveg2{
-  margin: 430px;
+  margin: 425px;
   margin-top: -375px;
   color: white;
+  text-shadow: 2px 2px #7f7f7f;
 }
 
 .fooldal-ár2{
   margin: 2px;
   margin-top: 40px;
   color: white;
+  text-shadow: 2px 2px #7f7f7f;
 }
 
 .piros-ár2{
@@ -145,11 +162,13 @@ footer{
   margin: 180px;
   margin-top: -47px;
   white-space: nowrap;
+  text-shadow: none;
 }
 
 .szoveg3{
-  margin: 430px;
+  margin: 415px;
   margin-top: -360px;
+  text-shadow: 2px 2px #7f7f7f;
 }
 
 .fooldal-ár3{
@@ -157,4 +176,5 @@ footer{
   margin-top: 40px;
   color: white;
   white-space: nowrap;
+  text-shadow: 2px 2px #7f7f7f;
 }

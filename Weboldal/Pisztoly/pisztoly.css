@@ -94,9 +94,11 @@
     }
     .ár{
         text-align: left;
+        font-size:x-large;
     }
     .nev{
         text-align: left;
+        font-size: larger;
     }
     .haromkep{
         display: flex;
@@ -123,5 +125,15 @@
 
 }
 .egybe{
- float: right;
+ 
+}
+.kosar{
+  width: 35%;
+  height: auto;
+}
+
+.kedvencek{
+  width: 45px;
+  height: auto;
+  
 }

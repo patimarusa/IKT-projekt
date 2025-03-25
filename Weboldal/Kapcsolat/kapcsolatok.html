@@ -4,104 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warrior's Arsenal Fegyverbolt</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="kapcsolat.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
-
+    <link rel="stylesheet" href="/Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="kapcsolatok.css">
+    
+</head>
 <body class="body">
     
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <img class="logo" src="../Képek/logo.png" alt="">
+      <div class="navbar-nav">
+        <a class="navbar-brand" href="../Főoldal/fooldal.html">Főoldal</a>
+        <a class="navbar-brand" aria-current="page" href="../Fegyverek/fegyverek.html">Fegyverek</a>
+        <a class="navbar-brand" href="../Lőszer/loszer.html">Lőszer</a>
+        <a class="navbar-brand" href="../Kapcsolat/kapcsolatok.html">Kapcsolat</a>
         
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <img class="logo" src="../Képek/logo.png" alt="">
-          <div class="navbar-nav">
-            <a class="navbar-brand" href="/Weboldal/Főoldal/fooldal.html">Főoldal</a>
-            <a class="navbar-brand" aria-current="page" href="../Fegyverek/fegyverek.html">Fegyverek</a>
-            <a class="navbar-brand" href="../Lőszer/loszer.html">Lőszer</a>
-            <a class="navbar-brand" href="../Kapcsolat/kapcsolat.html">Kapcsolat</a>
-<script>
-    function validateEmail() {
-        let emailInput = document.getElementById("email").value;
-        let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-                  
-        if (emailPattern.test(emailInput)) {
-              alert("Érvényes e-mail cím!");
-        } else {
-            alert("Hibás e-mail cím!");
-        }
-    }
-</script>
-</head>            
-    <link rel="stylesheet" href="/Bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="kapcsolatok.css">
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <img class="logo" src="/IKT-projekt/Képek/logo.png" alt="">
-            <div class="navbar-nav">
-              <a class="navbar-brand" href="../Főoldal/fooldal.html">Főoldal</a>
-              <a class="navbar-brand" aria-current="page" href="../Fegyverek/fegyverek.html">Fegyverek</a>
-              <a class="navbar-brand" href="../Lőszer/loszer.html">Lőszer</a>
-              <a class="navbar-brand" href="../Kapcsolat/kapcsolatok.html">Kapcsolat</a>
-              
-            </div>
-            <a class="navbar-brand" href="/IKT-projekt/Weboldal/Kosár/kosar.html"><img class="kosarlogo" src="/IKT-projekt/Képek/kosar logo.png" alt=""></a>
-              <a class="navbar-brand" href="/IKT-projekt/Weboldal/kedvencek/kedvencek.html"><img class="kedvenclogo" src="/IKT-projekt/Képek/kedvencek.png" alt=""></a>
-          </div>
-          <a class="navbar-brand" href="../Kosár/kosar.html"><img class="kosarlogo" src="../Képek/kosar logo.png" alt=""></a>
-          <a class="navbar-brand" href="../kedvencek/kedvencek.html"><img class="kedvenclogo" src="../Képek/kedvencek.png" alt=""></a>
-        </div>
       </div>
-    </nav>
-<div class="szoveg">Lépj kapcsolatba velünk!</div>
-  <div class="container">
-        <form id="contactForm">
-          <input type="email" id="email" placeholder="E-Mail címed" required>
-          <textarea id="message" placeholder="Miben segíthetünk?" required></textarea>
-          <button type="submit">Küldés</button>
-      </form>
-      <div class="contact-info">
-          <div><i>📍</i> <strong>Üzletünk:</strong> 6500, Baja Nemtudom utca 9</div>
-          <div><i>📞</i> <strong>Hívj minket:</strong> +30 30 123 9876</div>
-          <div><i>📧</i> <strong>E-Mail címünk:</strong> info@warriorsarsenal.hu</div>
-      </div>
+      <a class="navbar-brand" href="../Kosár/kosar.html"><img class="kosarlogo" src="../Képek/kosar logo.png" alt=""></a>
+        <a class="navbar-brand" href="../kedvencek/kedvencek.html"><img class="kedvenclogo" src="../Képek/kedvencek.png" alt=""></a>
+    </div>
   </div>
-  <script src="/Bootstrap/bootstrap.min.js"></script>
-  <script>
-    // E-mail validálás funkció
-    function validateEmail(email) {
-        // E-mail formátum ellenőrzése regex segítségével
-        const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-        if (!emailPattern.test(email)) {
-            return "Érvénytelen e-mail cím formátum.";
-        }
-        
-        // Ellenőrzés, hogy a megadott e-mail cím foglalt-e
-        // Ez valós példában szerveroldali validációt igényel, pl. AJAX vagy API hívás segítségével.
-        const existingEmails = ["example1@example.com", "example2@example.com"]; // Például egy már létező e-mail lista.
-        if (existingEmails.includes(email)) {
-            return "Ez az e-mail cím már foglalt.";
-        }
+</nav>    
 
-        // Ha nincs hiba, visszaadjuk a "sikeres" választ
-        return "E-mail cím érvényes és nem foglalt.";
-    }
+<div class="cim"><h1>Lépj velünk kapcsolatba!</h1></div>
 
-    // E-mail cím bekérése és validálás
-    function checkEmail() {
-        const userEmail = prompt("Add meg az e-mail címed:");
-        const validationMessage = validateEmail(userEmail);
-        alert(validationMessage);
-    }
-</script>
+<div class="container">
+  <div class="baloldal">
+      <div class="email">
+        <form class="d-flex flex-column" role="search">
+          <input class="form-control me-2 mb-4" type="search" placeholder="E-mail címed" aria-label="Search">
+      </div>
+
+      <div class="segitseg">
+        <form class="d-flex flex-column" role="search">
+          <input class="form-control me-2" type="search" placeholder="Miben segíthetünk?" aria-label="Search">
+      </div>
+
+    <div class="gomb">
+      <a href="" class="kuldesgomb btn btn-primary">Küldés</a>
+    </div>
+  </div>
+
+
+  <div class="jobboldal">
+    <h1>Üzletünk</h1>
+  </div>
+
+</div>
+    <script src="/Bootstrap/bootstrap.min.js"></script>
 </body>
+</html>

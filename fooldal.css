@@ -1,5 +1,5 @@
 .body{
-    background-image: url('../Képek/fooldalhatter.png');
+    background-image: url('../IKT-projekt/Weboldal/Képek/fooldalhatter.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
     margin: 0; /* Ha nem akarod, hogy legyen margó az oldal körül */
 }
 .navbar{
-    background-image: url('../Főoldal/fooldal.html') !important; /* A háttérkép */
+    background-image: url('../IKT-projekt/Weboldal/Képek/fooldalhatter.png') !important; /* A háttérkép */
     background-size: cover !important; /* A kép kitölti a navbar-t */
     background-position: center !important; /* A kép középre igazítva */
     background-repeat: no-repeat !important; /* A kép nem ismétlődik */

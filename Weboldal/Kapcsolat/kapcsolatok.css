@@ -106,7 +106,8 @@
   display: flex;
   justify-content: right;
   color: white;
-  padding-right: 50px;
+  padding-right: 100px;
+  padding-top: 50px;
 }
 .baloldal{
   padding-top: 50px;
@@ -114,4 +115,11 @@
 .container{
   display: flex;
   justify-content: space-between;
+}
+.uzletunkkep{
+  width: 100px;
+  height: 100px;
+}
+.uzletunk{
+  padding-top: 25px;
 }

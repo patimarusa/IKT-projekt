@@ -65,14 +65,7 @@
     border-radius: 10% !important; /* A kép lekerekítése */
     height: 70px !important; /* A kép magassága */
     }
-.kosarlogo{
-    width: 80%;
-}
-.kedvenclogo{
-    width: 67%;
-    background-color: transparent;
-    border: none;
-}
+
 .navbar-nav {
     display: flex;
     margin: auto;
@@ -90,6 +83,18 @@
 }
 .rect {
   width: 200px; /* A téglalap szélessége */
-  height: 20px; /* A téglalap magassága, vékony legyen */
+  height: 250px; /* A téglalap magassága, vékony legyen */
   background-color: #C14A17; /* A szín kódja */
+  margin: 5%;
+  margin-top: 10%;
+}
+
+.kosarlogo{
+  margin: 900px;
+  margin-top: 10px;
+}
+
+.kedvenclogo{
+  margin-top: -890px;
+  margin: 400px;
 }

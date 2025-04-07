@@ -102,24 +102,29 @@
   background-color: #C14A17;
   border-color: #C14A17;
 }
-.jobboldal{
+.container{
   display: flex;
-  justify-content: right;
-  color: white;
-  padding-right: 100px;
-  padding-top: 50px;
+  justify-content: space-between;
 }
 .baloldal{
   padding-top: 50px;
 }
-.container{
+.jobboldal{
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
+  color: white;
+  padding-top: 50px;
+  padding-left: 300px;
 }
 .uzletunkkep{
   width: 100px;
   height: 100px;
 }
-.uzletunk{
+.felso{
   padding-top: 25px;
+  height: 100px;
+}
+.also{
+  display: flex;
+  padding-top: 85px;
 }

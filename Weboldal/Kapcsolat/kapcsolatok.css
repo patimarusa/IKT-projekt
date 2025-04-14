@@ -121,10 +121,15 @@
   height: 100px;
 }
 .felso{
-  padding-top: 25px;
+  padding-left: 90px;
   height: 100px;
+  padding-top: 25px;
 }
 .also{
   display: flex;
-  padding-top: 85px;
+  padding-top: 100px;
+  padding-right: 100px;
+}
+.uzlet{
+  display: flex;
 }

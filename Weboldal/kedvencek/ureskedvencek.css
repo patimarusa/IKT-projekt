@@ -1,0 +1,55 @@
+/* Navbar alap */
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-left img {
+  height: 50px;
+}
+
+.nav-center a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-center a:hover {
+  color: #ff6600;
+}
+
+.nav-right a img {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #232323;
+}
+
+#bongeszes{
+  background-color: #C14A17;
+  width: 15%;
+  height: 40px;
+  font-size: 150%;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 250px;
+  text-shadow: none;
+  color: white;
+  margin: 300px;
+}
+
+.szoveg{
+  color: #C14A17;
+  text-align: center;
+  margin-top: 200px;
+}

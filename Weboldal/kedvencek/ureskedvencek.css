@@ -42,11 +42,23 @@ html, body {
   font-size: 150%;
   text-align: center;
   border-radius: 20px;
-  margin-top: 250px;
-  text-shadow: none;
+  margin-bottom: 300px;
   color: white;
   margin: 300px;
-  margin-left: 5;
+  margin-left: 500px;
+}
+
+a:link{
+  color: white;
+}
+a:hover{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+a:active{
+  color: white;
 }
 
 .szoveg{
